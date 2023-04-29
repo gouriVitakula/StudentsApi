@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: STUDENTS_API
+
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/student_db
+    username: root
+    password: Manu_11004106015
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+server:
+  port:8080
